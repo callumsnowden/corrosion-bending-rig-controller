@@ -1,7 +1,9 @@
-../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:238:19:HAL_DMA2D_Init	3
-../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:316:19:HAL_DMA2D_DeInit	10
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:238:19:HAL_DMA2D_Init	4
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:316:19:HAL_DMA2D_DeInit	11
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:406:13:HAL_DMA2D_MspInit	1
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:422:13:HAL_DMA2D_MspDeInit	1
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:449:19:HAL_DMA2D_RegisterCallback	13
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:547:19:HAL_DMA2D_UnRegisterCallback	12
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:678:19:HAL_DMA2D_Start	2
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:714:19:HAL_DMA2D_Start_IT	2
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c:751:19:HAL_DMA2D_BlendingStart	2

@@ -2,6 +2,8 @@
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:325:19:HAL_LTDC_DeInit	24	static
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:395:13:HAL_LTDC_MspInit	16	static
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:411:13:HAL_LTDC_MspDeInit	16	static
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:436:19:HAL_LTDC_RegisterCallback	32	static
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:530:19:HAL_LTDC_UnRegisterCallback	24	static
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:627:6:HAL_LTDC_IRQHandler	24	static
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:745:13:HAL_LTDC_ErrorCallback	16	static
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c:761:13:HAL_LTDC_LineEventCallback	16	static

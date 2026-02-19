@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm7.h:2392:22:SCB_CleanDCache	3
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:92:16:lv_st_ltdc_create_direct	1
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:97:16:lv_st_ltdc_create_partial	1
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:107:23:create	4
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:143:13:flush_cb	7
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:227:13:flush_wait_cb	2
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:235:26:get_lv_cf_from_layer_cf	6
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:253:13:reload_event_callback	3
+../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c:264:13:clean_dcache	1

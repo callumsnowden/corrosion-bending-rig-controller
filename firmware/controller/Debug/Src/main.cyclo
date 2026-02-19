@@ -1,0 +1,5 @@
+../Src/main.c:87:5:main	1
+../Src/main.c:170:6:SystemClock_Config	4
+../Src/main.c:227:6:PeriphCommonClock_Config	2
+../Src/main.c:259:6:HAL_TIM_PeriodElapsedCallback	2
+../Src/main.c:277:6:Error_Handler	1

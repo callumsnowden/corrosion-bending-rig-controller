@@ -1,0 +1,11 @@
+../hal_stm_lvgl/tft/tft.c:110:6:tft_init	1
+../hal_stm_lvgl/tft/tft.c:137:13:flush_cb	6
+../hal_stm_lvgl/tft/tft.c:188:13:LCD_MspInit	1
+../hal_stm_lvgl/tft/tft.c:256:13:LCD_ClockConfig	1
+../hal_stm_lvgl/tft/tft.c:276:16:LCD_Init	3
+../hal_stm_lvgl/tft/tft.c:335:13:LCD_LayerRgb565Init	1
+../hal_stm_lvgl/tft/tft.c:366:13:LCD_DisplayOn	1
+../hal_stm_lvgl/tft/tft.c:374:13:DMA_Config	2
+../hal_stm_lvgl/tft/tft.c:419:13:DMA_TransferComplete	3
+../hal_stm_lvgl/tft/tft.c:452:13:DMA_TransferError	1
+../hal_stm_lvgl/tft/tft.c:462:6:DMA2_Stream0_IRQHandler	1
