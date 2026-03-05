@@ -40,9 +40,11 @@
 /* USER CODE BEGIN Includes */
 #include "stm32f7xx.h"
 #include "lvgl/lvgl.h"
+#include "stm32746g_discovery.h"
 
 #include "hal_stm_lvgl/tft/tft.h"
 #include "hal_stm_lvgl/touchpad/touchpad.h"
+#include "stm32f7xx_hal_i2c.h"
 
 /* USER CODE END Includes */
 
@@ -53,7 +55,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define ADC_ADDRESS 0x48
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -64,6 +66,13 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+
+/*
+ * Configure ADC to run at 128SPS, continuous conversion
+ */
+uint8_t ADC_CONFIG_VALUE[2] = {0x00, 0x80};
+
+volatile int16_t adcReading = 0;
 
 /* USER CODE END PV */
 
@@ -134,7 +143,14 @@ int main(void)
   MX_TIM12_Init();
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
+
+  BSP_LED_Init(LED1);
+  lv_init();
+  tft_init();
+
+  HAL_TIM_Base_Start_IT(&htim4);
 
   //SCB_EnableICache();
   //SCB_EnableDCache();
@@ -143,9 +159,6 @@ int main(void)
 
   /* Call init function for freertos objects (in cmsis_os2.c) */
   MX_FREERTOS_Init();
-
-  lv_init();
-  tft_init();
 
   /* Start scheduler */
   osKernelStart();
@@ -266,6 +279,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     HAL_IncTick();
   }
   /* USER CODE BEGIN Callback 1 */
+
+  if(htim->Instance == TIM4)
+  {
+	  BSP_LED_Toggle(LED1);
+  }
 
   /* USER CODE END Callback 1 */
 }

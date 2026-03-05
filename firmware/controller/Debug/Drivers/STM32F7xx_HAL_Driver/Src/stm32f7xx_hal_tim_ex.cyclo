@@ -1,5 +1,5 @@
-../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:139:19:HAL_TIMEx_HallSensor_Init	3
-../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:241:19:HAL_TIMEx_HallSensor_DeInit	3
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:139:19:HAL_TIMEx_HallSensor_Init	4
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:241:19:HAL_TIMEx_HallSensor_DeInit	4
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:286:13:HAL_TIMEx_HallSensor_MspInit	1
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:301:13:HAL_TIMEx_HallSensor_MspDeInit	1
 ../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c:316:19:HAL_TIMEx_HallSensor_Start	15

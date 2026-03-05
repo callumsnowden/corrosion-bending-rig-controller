@@ -55,6 +55,7 @@ osThreadId defaultTaskHandle;
 
 void vTaskGuiTimer(void * pvParameters);
 void vTaskUpdateGuiCounter(void * pvParameters);
+void vTaskAdcPoll(void * pvParameters);
 
 /* USER CODE END FunctionPrototypes */
 
@@ -173,6 +174,7 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN RTOS_THREADS */
   xTaskCreate(vTaskGuiTimer, "GUItimtsk", 1024, NULL, 2, NULL);
   xTaskCreate(vTaskUpdateGuiCounter, "GUIcttsk", 1024, NULL, 1, NULL);
+  //xTaskCreate(vTaskAdcPoll, "ADCpolltsk", 1024, NULL, 2, NULL);
   /* USER CODE END RTOS_THREADS */
 
 }
@@ -239,6 +241,14 @@ void vTaskUpdateGuiCounter(void * pvParameters)
 		lv_label_set_text_fmt(counterLabel, "#ff0000 Count: %d#", (uint32_t)xTickCount);
 		lv_unlock();
 		lv_sleep_ms(1000);
+	}
+}
+
+void vTaskAdcPoll(void *pvParameters)
+{
+	for (;;)
+	{
+		lv_sleep_ms(10);
 	}
 }
 

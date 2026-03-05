@@ -517,6 +517,7 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/lv_api_map_v9_2.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/lv_api_map_v9_3.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/lv_api_map_v9_4.h \
+ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/hal_stm_lvgl/tft/tft.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/misc/lv_color.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/misc/lv_area.h \
@@ -1053,6 +1054,7 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/lv_api_map_v9_2.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/lv_api_map_v9_3.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/lv_api_map_v9_4.h:
+C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/hal_stm_lvgl/tft/tft.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/misc/lv_color.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/misc/lv_area.h:
