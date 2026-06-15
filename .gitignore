@@ -43,6 +43,8 @@ fp-info-cache
 *.zip
 
 /firmware/controller/Debug/
+
 *.elf
 *.d
 *.o
+*.su
