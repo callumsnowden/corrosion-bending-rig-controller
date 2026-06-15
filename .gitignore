@@ -48,4 +48,4 @@ fp-info-cache
 *.d
 *.o
 *.su
-/firmware/controller/Debug
+firmware/controller/Debug
