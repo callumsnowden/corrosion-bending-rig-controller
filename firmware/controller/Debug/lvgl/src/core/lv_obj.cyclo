@@ -57,7 +57,7 @@
 ../lvgl/src/core/lv_obj.c:553:6:lv_obj_set_user_data	1
 ../lvgl/src/core/lv_obj.c:558:8:lv_obj_get_user_data	1
 ../lvgl/src/core/lv_obj.c:567:13:lv_obj_constructor	5
-../lvgl/src/core/lv_obj.c:602:13:lv_obj_destructor	4
+../lvgl/src/core/lv_obj.c:602:13:lv_obj_destructor	6
 ../lvgl/src/core/lv_obj.c:649:13:lv_obj_draw	20
 ../lvgl/src/core/lv_obj.c:763:13:draw_scrollbar	10
 ../lvgl/src/core/lv_obj.c:809:20:scrollbar_init_draw_dsc	10
@@ -71,3 +71,6 @@
 ../lvgl/src/core/lv_obj.c:1218:13:screen_create_on_trigger_event_cb	2
 ../lvgl/src/core/lv_obj.c:1228:13:play_timeline_on_trigger_event_cb	7
 ../lvgl/src/core/lv_obj.c:1261:13:delete_on_screen_unloaded_event_cb	1
+../lvgl/src/core/lv_obj.c:1267:19:lv_obj_get_scroll_end_helper	1
+../lvgl/src/core/lv_obj.c:1274:20:lv_obj_set_any	9
+../lvgl/src/core/lv_obj.c:1299:20:lv_obj_get_any	7

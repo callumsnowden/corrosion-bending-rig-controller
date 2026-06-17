@@ -63,6 +63,10 @@ lvgl/src/libs/barcode/lv_barcode.o: ../lvgl/src/libs/barcode/lv_barcode.c \
  ../lvgl/src/libs/barcode/../../core/../misc/lv_bidi.h \
  ../lvgl/src/libs/barcode/../../core/lv_obj_style_gen.h \
  ../lvgl/src/libs/barcode/../../core/../core/lv_obj_style.h \
+ ../lvgl/src/libs/barcode/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/libs/barcode/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/libs/barcode/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/libs/barcode/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/libs/barcode/lv_barcode_private.h \
  ../lvgl/src/libs/barcode/../../widgets/canvas/lv_canvas_private.h \
  ../lvgl/src/libs/barcode/../../widgets/canvas/../image/lv_image_private.h \
@@ -532,6 +536,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/libs/barcode/../../core/../misc/lv_bidi.h:
 ../lvgl/src/libs/barcode/../../core/lv_obj_style_gen.h:
 ../lvgl/src/libs/barcode/../../core/../core/lv_obj_style.h:
+../lvgl/src/libs/barcode/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/libs/barcode/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/libs/barcode/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/libs/barcode/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/libs/barcode/lv_barcode_private.h:
 ../lvgl/src/libs/barcode/../../widgets/canvas/lv_canvas_private.h:
 ../lvgl/src/libs/barcode/../../widgets/canvas/../image/lv_image_private.h:

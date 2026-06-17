@@ -105,6 +105,10 @@ lvgl/src/widgets/property/lv_obj_properties.o: \
  ../lvgl/src/widgets/property/../../core/../draw/lv_draw_blur.h \
  ../lvgl/src/widgets/property/../../core/lv_obj_class.h \
  ../lvgl/src/widgets/property/../../core/lv_obj_property.h \
+ ../lvgl/src/widgets/property/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/widgets/property/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/widgets/property/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/widgets/property/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/widgets/property/../../core/lv_obj_event.h \
  ../lvgl/src/widgets/property/../../core/../misc/lv_event.h \
  ../lvgl/src/widgets/property/../../core/../indev/lv_indev.h \
@@ -221,6 +225,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/widgets/property/../../core/../draw/lv_draw_blur.h:
 ../lvgl/src/widgets/property/../../core/lv_obj_class.h:
 ../lvgl/src/widgets/property/../../core/lv_obj_property.h:
+../lvgl/src/widgets/property/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/widgets/property/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/widgets/property/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/widgets/property/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/widgets/property/../../core/lv_obj_event.h:
 ../lvgl/src/widgets/property/../../core/../misc/lv_event.h:
 ../lvgl/src/widgets/property/../../core/../indev/lv_indev.h:

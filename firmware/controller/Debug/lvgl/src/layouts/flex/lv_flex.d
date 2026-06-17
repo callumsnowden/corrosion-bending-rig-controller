@@ -111,6 +111,10 @@ lvgl/src/layouts/flex/lv_flex.o: ../lvgl/src/layouts/flex/lv_flex.c \
  ../lvgl/src/layouts/flex/../../core/../draw/lv_draw_blur.h \
  ../lvgl/src/layouts/flex/../../core/lv_obj_class.h \
  ../lvgl/src/layouts/flex/../../core/lv_obj_property.h \
+ ../lvgl/src/layouts/flex/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/layouts/flex/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/layouts/flex/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/layouts/flex/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/layouts/flex/../../core/lv_obj_event.h \
  ../lvgl/src/layouts/flex/../../core/../misc/lv_event.h \
  ../lvgl/src/layouts/flex/../../core/../indev/lv_indev.h \
@@ -335,6 +339,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/layouts/flex/../../core/../draw/lv_draw_blur.h:
 ../lvgl/src/layouts/flex/../../core/lv_obj_class.h:
 ../lvgl/src/layouts/flex/../../core/lv_obj_property.h:
+../lvgl/src/layouts/flex/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/layouts/flex/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/layouts/flex/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/layouts/flex/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/layouts/flex/../../core/lv_obj_event.h:
 ../lvgl/src/layouts/flex/../../core/../misc/lv_event.h:
 ../lvgl/src/layouts/flex/../../core/../indev/lv_indev.h:

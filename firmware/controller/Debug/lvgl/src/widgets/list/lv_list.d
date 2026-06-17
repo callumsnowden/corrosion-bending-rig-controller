@@ -63,6 +63,10 @@ lvgl/src/widgets/list/lv_list.o: ../lvgl/src/widgets/list/lv_list.c \
  ../lvgl/src/widgets/list/../../core/../misc/lv_bidi.h \
  ../lvgl/src/widgets/list/../../core/lv_obj_style_gen.h \
  ../lvgl/src/widgets/list/../../core/../core/lv_obj_style.h \
+ ../lvgl/src/widgets/list/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/widgets/list/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/widgets/list/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/widgets/list/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/widgets/list/lv_list.h \
  ../lvgl/src/widgets/list/../../core/lv_obj.h \
  ../lvgl/src/widgets/list/../../core/../lv_conf_internal.h \
@@ -203,6 +207,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/widgets/list/../../core/../misc/lv_bidi.h:
 ../lvgl/src/widgets/list/../../core/lv_obj_style_gen.h:
 ../lvgl/src/widgets/list/../../core/../core/lv_obj_style.h:
+../lvgl/src/widgets/list/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/widgets/list/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/widgets/list/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/widgets/list/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/widgets/list/lv_list.h:
 ../lvgl/src/widgets/list/../../core/lv_obj.h:
 ../lvgl/src/widgets/list/../../core/../lv_conf_internal.h:

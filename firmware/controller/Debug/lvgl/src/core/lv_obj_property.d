@@ -92,8 +92,13 @@ lvgl/src/core/lv_obj_property.o: ../lvgl/src/core/lv_obj_property.c \
  ../lvgl/src/core/../draw/lv_draw_arc.h \
  ../lvgl/src/core/../draw/lv_draw_triangle.h \
  ../lvgl/src/core/../draw/lv_draw_blur.h ../lvgl/src/core/lv_obj_class.h \
- ../lvgl/src/core/lv_obj_property.h ../lvgl/src/core/lv_obj_event.h \
- ../lvgl/src/core/../misc/lv_event.h ../lvgl/src/core/../indev/lv_indev.h \
+ ../lvgl/src/core/lv_obj_property.h \
+ ../lvgl/src/core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/core/../widgets/property/../../core/lv_obj_property.h \
+ ../lvgl/src/core/lv_obj_event.h ../lvgl/src/core/../misc/lv_event.h \
+ ../lvgl/src/core/../indev/lv_indev.h \
  ../lvgl/src/core/../indev/../core/lv_group.h \
  ../lvgl/src/core/../indev/../core/../lv_conf_internal.h \
  ../lvgl/src/core/../indev/../core/../misc/lv_types.h \
@@ -212,6 +217,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/core/../draw/lv_draw_blur.h:
 ../lvgl/src/core/lv_obj_class.h:
 ../lvgl/src/core/lv_obj_property.h:
+../lvgl/src/core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/core/../widgets/property/lv_style_properties.h:
+../lvgl/src/core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/core/lv_obj_event.h:
 ../lvgl/src/core/../misc/lv_event.h:
 ../lvgl/src/core/../indev/lv_indev.h:

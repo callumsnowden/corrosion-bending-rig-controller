@@ -55,6 +55,10 @@ lvgl/src/core/lv_obj_class.o: ../lvgl/src/core/lv_obj_class.c \
  ../lvgl/src/core/../misc/lv_style_gen.h ../lvgl/src/core/lv_obj_style.h \
  ../lvgl/src/core/../misc/lv_bidi.h ../lvgl/src/core/lv_obj_style_gen.h \
  ../lvgl/src/core/../core/lv_obj_style.h \
+ ../lvgl/src/core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/core/lv_obj_private.h ../lvgl/src/core/../misc/lv_ext_data.h \
  ../lvgl/src/core/lv_obj.h ../lvgl/src/core/../lv_conf_internal.h \
  ../lvgl/src/core/../misc/lv_color.h ../lvgl/src/core/../misc/lv_assert.h \
@@ -180,6 +184,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/core/../misc/lv_bidi.h:
 ../lvgl/src/core/lv_obj_style_gen.h:
 ../lvgl/src/core/../core/lv_obj_style.h:
+../lvgl/src/core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/core/../widgets/property/lv_style_properties.h:
+../lvgl/src/core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/core/lv_obj_private.h:
 ../lvgl/src/core/../misc/lv_ext_data.h:
 ../lvgl/src/core/lv_obj.h:

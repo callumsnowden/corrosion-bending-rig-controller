@@ -43,3 +43,5 @@
 ../lvgl/src/widgets/image/lv_image.c:995:13:update_align	11
 ../lvgl/src/widgets/image/lv_image.c:1037:13:reset_image_attributes	3
 ../lvgl/src/widgets/image/lv_image.c:1054:13:image_src_observer_cb	2
+../lvgl/src/widgets/image/lv_image.c:1064:13:lv_image_set_pivot_helper	1
+../lvgl/src/widgets/image/lv_image.c:1069:19:lv_image_get_pivot_helper	1

@@ -22,13 +22,16 @@
 #include "adc.h"
 #include "crc.h"
 #include "dcmi.h"
+#include "dma.h"
 #include "dma2d.h"
 #include "eth.h"
+#include "fatfs.h"
 #include "i2c.h"
 #include "ltdc.h"
 #include "quadspi.h"
 #include "rtc.h"
 #include "sai.h"
+#include "sdmmc.h"
 #include "spdifrx.h"
 #include "spi.h"
 #include "tim.h"
@@ -38,13 +41,13 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "dma.h"
 #include "stm32f7xx.h"
 #include "lvgl/lvgl.h"
-#include "stm32746g_discovery.h"
 
 #include "hal_stm_lvgl/tft/tft.h"
 #include "hal_stm_lvgl/touchpad/touchpad.h"
-#include "stm32f7xx_hal_i2c.h"
+#include "tfp_printf.h"
 
 /* USER CODE END Includes */
 
@@ -55,7 +58,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define ADC_ADDRESS 0x48
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -67,12 +70,7 @@
 
 /* USER CODE BEGIN PV */
 
-/*
- * Configure ADC to run at 128SPS, continuous conversion
- */
-uint8_t ADC_CONFIG_VALUE[2] = {0x00, 0x80};
-
-volatile int16_t adcReading = 0;
+extern TaskHandle_t xTaskAdcHandle;
 
 /* USER CODE END PV */
 
@@ -81,6 +79,8 @@ void SystemClock_Config(void);
 void PeriphCommonClock_Config(void);
 void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
+
+void UART_putc(void* p, char c);
 
 /* USER CODE END PFP */
 
@@ -121,6 +121,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_ADC3_Init();
   MX_CRC_Init();
   MX_DCMI_Init();
@@ -144,16 +145,28 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
   MX_TIM4_Init();
+  //MX_SDMMC1_SD_Init();
+  //MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
+  init_printf(NULL, UART_putc);
 
-  BSP_LED_Init(LED1);
+  /*
+  if(sdInitResult == MSD_OK)
+  {
+	  tfp_printf("SD init OK\n\r");
+  } else {
+	  tfp_printf("SD INIT FAIL %u\n\r", sdInitResult);
+  }
+  */
+
   lv_init();
   tft_init();
-
-  HAL_TIM_Base_Start_IT(&htim4);
+  touchpad_init();
 
   //SCB_EnableICache();
   //SCB_EnableDCache();
+
+  tfp_printf("\n\rAbout to start rtos");
 
   /* USER CODE END 2 */
 
@@ -243,7 +256,8 @@ void PeriphCommonClock_Config(void)
 
   /** Initializes the peripherals clock
   */
-  PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_LTDC|RCC_PERIPHCLK_SAI2;
+  PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_LTDC|RCC_PERIPHCLK_SAI2
+                              |RCC_PERIPHCLK_SDMMC1|RCC_PERIPHCLK_CLK48;
   PeriphClkInitStruct.PLLSAI.PLLSAIN = 384;
   PeriphClkInitStruct.PLLSAI.PLLSAIR = 5;
   PeriphClkInitStruct.PLLSAI.PLLSAIQ = 2;
@@ -251,6 +265,8 @@ void PeriphCommonClock_Config(void)
   PeriphClkInitStruct.PLLSAIDivQ = 1;
   PeriphClkInitStruct.PLLSAIDivR = RCC_PLLSAIDIVR_8;
   PeriphClkInitStruct.Sai2ClockSelection = RCC_SAI2CLKSOURCE_PLLSAI;
+  PeriphClkInitStruct.Clk48ClockSelection = RCC_CLK48SOURCE_PLLSAIP;
+  PeriphClkInitStruct.Sdmmc1ClockSelection = RCC_SDMMC1CLKSOURCE_CLK48;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -258,6 +274,11 @@ void PeriphCommonClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void UART_putc(void* p, char c)
+{
+	HAL_UART_Transmit(&huart1, &c, 1, 10);
+}
 
 /* USER CODE END 4 */
 
@@ -282,7 +303,14 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
   if(htim->Instance == TIM4)
   {
-	  BSP_LED_Toggle(LED1);
+	  /*
+	   * Signal to ADC task that it's time to take a reading
+	   */
+	  BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+
+	  configASSERT(xTaskAdcHandle != NULL);
+	  vTaskNotifyGiveFromISR(xTaskAdcHandle, &xHigherPriorityTaskWoken);
+	  portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
   }
 
   /* USER CODE END Callback 1 */

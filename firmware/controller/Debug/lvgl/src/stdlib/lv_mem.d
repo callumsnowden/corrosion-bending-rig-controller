@@ -170,6 +170,10 @@ lvgl/src/stdlib/lv_mem.o: ../lvgl/src/stdlib/lv_mem.c \
  ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../draw/lv_draw_blur.h \
  ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/lv_obj_class.h \
  ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/lv_obj_property.h \
+ ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/lv_obj_event.h \
  ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../misc/lv_event.h \
  ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../indev/lv_indev.h \
@@ -399,6 +403,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../draw/lv_draw_blur.h:
 ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/lv_obj_class.h:
 ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/lv_obj_property.h:
+../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/lv_obj_event.h:
 ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../misc/lv_event.h:
 ../lvgl/src/stdlib/../core/../debugging/sysmon/../../core/../indev/lv_indev.h:

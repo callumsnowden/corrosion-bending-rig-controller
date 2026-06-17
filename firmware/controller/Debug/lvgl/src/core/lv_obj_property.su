@@ -1,0 +1,9 @@
+../lvgl/src/core/lv_obj_property.c:109:13:lv_obj_set_property	24	static
+../lvgl/src/core/lv_obj_property.c:127:13:lv_obj_set_properties	32	static
+../lvgl/src/core/lv_obj_property.c:139:15:lv_obj_get_property	56	static
+../lvgl/src/core/lv_obj_property.c:166:15:lv_obj_get_style_property	48	static
+../lvgl/src/core/lv_obj_property.c:184:14:lv_style_property_get_id	32	static
+../lvgl/src/core/lv_obj_property.c:198:14:lv_obj_class_property_get_id	32	static
+../lvgl/src/core/lv_obj_property.c:220:14:lv_obj_property_get_id	24	static
+../lvgl/src/core/lv_obj_property.c:246:20:obj_property	64	static
+../lvgl/src/core/lv_obj_property.c:333:12:property_name_compare	24	static

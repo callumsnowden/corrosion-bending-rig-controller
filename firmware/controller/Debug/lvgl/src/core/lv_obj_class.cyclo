@@ -3,5 +3,5 @@
 ../lvgl/src/core/lv_obj_class.c:136:6:lv_obj_destruct	3
 ../lvgl/src/core/lv_obj_class.c:156:6:lv_obj_is_editable	4
 ../lvgl/src/core/lv_obj_class.c:168:6:lv_obj_is_group_def	4
-../lvgl/src/core/lv_obj_class.c:197:13:lv_obj_construct	3
+../lvgl/src/core/lv_obj_class.c:197:13:lv_obj_construct	4
 ../lvgl/src/core/lv_obj_class.c:224:17:get_instance_size	4

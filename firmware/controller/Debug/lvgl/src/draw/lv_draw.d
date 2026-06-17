@@ -159,6 +159,10 @@ lvgl/src/draw/lv_draw.o: ../lvgl/src/draw/lv_draw.c \
  ../lvgl/src/draw/../display/../core/../draw/lv_draw_blur.h \
  ../lvgl/src/draw/../display/../core/lv_obj_class.h \
  ../lvgl/src/draw/../display/../core/lv_obj_property.h \
+ ../lvgl/src/draw/../display/../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/draw/../display/../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/draw/../display/../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/draw/../display/../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/draw/../display/../core/lv_obj_event.h \
  ../lvgl/src/draw/../display/../core/../misc/lv_event.h \
  ../lvgl/src/draw/../display/../core/../indev/lv_indev.h \
@@ -400,6 +404,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/draw/../display/../core/../draw/lv_draw_blur.h:
 ../lvgl/src/draw/../display/../core/lv_obj_class.h:
 ../lvgl/src/draw/../display/../core/lv_obj_property.h:
+../lvgl/src/draw/../display/../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/draw/../display/../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/draw/../display/../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/draw/../display/../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/draw/../display/../core/lv_obj_event.h:
 ../lvgl/src/draw/../display/../core/../misc/lv_event.h:
 ../lvgl/src/draw/../display/../core/../indev/lv_indev.h:

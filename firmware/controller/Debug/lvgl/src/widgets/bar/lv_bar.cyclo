@@ -34,3 +34,5 @@
 ../lvgl/src/widgets/bar/lv_bar.c:741:13:lv_bar_set_value_with_anim	3
 ../lvgl/src/widgets/bar/lv_bar.c:781:13:lv_bar_init_anim	1
 ../lvgl/src/widgets/bar/lv_bar.c:791:13:bar_value_observer_cb	2
+../lvgl/src/widgets/bar/lv_bar.c:807:13:lv_bar_set_value_helper	1
+../lvgl/src/widgets/bar/lv_bar.c:812:13:lv_bar_set_start_value_helper	1

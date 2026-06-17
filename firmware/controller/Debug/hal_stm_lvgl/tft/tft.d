@@ -131,6 +131,10 @@ hal_stm_lvgl/tft/tft.o: ../hal_stm_lvgl/tft/tft.c \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../draw/lv_draw_blur.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/lv_obj_class.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/lv_obj_property.h \
+ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/lv_obj_property_names.h \
+ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/../../misc/lv_types.h \
+ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/lv_style_properties.h \
+ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/../../core/lv_obj_property.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/lv_obj_event.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../misc/lv_event.h \
  C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../indev/lv_indev.h \
@@ -492,6 +496,8 @@ hal_stm_lvgl/tft/tft.o: ../hal_stm_lvgl/tft/tft.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sd.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_sdmmc.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spdifrx.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h \
@@ -638,6 +644,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../draw/lv_draw_blur.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/lv_obj_class.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/lv_obj_property.h:
+C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/lv_obj_property_names.h:
+C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/../../misc/lv_types.h:
+C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/lv_style_properties.h:
+C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../widgets/property/../../core/lv_obj_property.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/lv_obj_event.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../misc/lv_event.h:
 C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/corrosion-bending-rig-controller/firmware/controller/lvgl/src/core/../indev/lv_indev.h:
@@ -999,6 +1009,8 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sd.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_sdmmc.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spdifrx.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h:

@@ -11,4 +11,4 @@
 ../lvgl/src/widgets/line/lv_line.c:155:13:lv_line_constructor	1
 ../lvgl/src/widgets/line/lv_line.c:172:13:line_set_points	2
 ../lvgl/src/widgets/line/lv_line.c:186:34:resolve_point_coord	4
-../lvgl/src/widgets/line/lv_line.c:196:13:lv_line_event	17
+../lvgl/src/widgets/line/lv_line.c:196:13:lv_line_event	19

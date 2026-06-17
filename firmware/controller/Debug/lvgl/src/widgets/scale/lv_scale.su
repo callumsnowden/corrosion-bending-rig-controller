@@ -63,10 +63,10 @@
 ../lvgl/src/widgets/scale/lv_scale.c:618:13:lv_scale_constructor	24	static
 ../lvgl/src/widgets/scale/lv_scale.c:648:13:lv_scale_destructor	40	static
 ../lvgl/src/widgets/scale/lv_scale.c:672:13:lv_scale_event	48	static
-../lvgl/src/widgets/scale/lv_scale.c:736:13:scale_draw_indicator	472	static
+../lvgl/src/widgets/scale/lv_scale.c:736:13:scale_draw_indicator	464	static
 ../lvgl/src/widgets/scale/lv_scale.c:835:13:scale_draw_label	304	static
 ../lvgl/src/widgets/scale/lv_scale.c:957:13:scale_calculate_main_compensation	248	static
-../lvgl/src/widgets/scale/lv_scale.c:1016:13:scale_draw_main	336	static
+../lvgl/src/widgets/scale/lv_scale.c:1016:13:scale_draw_main	328	static
 ../lvgl/src/widgets/scale/lv_scale.c:1193:13:scale_get_center	56	static
 ../lvgl/src/widgets/scale/lv_scale.c:1219:13:scale_get_tick_points	256	static
 ../lvgl/src/widgets/scale/lv_scale.c:1386:13:scale_get_label_coords	64	static

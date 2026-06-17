@@ -53,7 +53,9 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+//void BSP_SD_MspInit(SD_HandleTypeDef *hsd, void *Params);
+//void BSP_SD_Detect_MspInit(SD_HandleTypeDef *hsd, void *Params);
+//void BSP_SD_MspDeInit(SD_HandleTypeDef *hsd, void *Params);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

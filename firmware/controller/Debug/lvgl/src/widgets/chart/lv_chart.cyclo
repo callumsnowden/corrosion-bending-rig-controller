@@ -60,7 +60,7 @@
 ../lvgl/src/widgets/chart/lv_chart.c:859:13:lv_chart_destructor	6
 ../lvgl/src/widgets/chart/lv_chart.c:889:13:lv_chart_event	13
 ../lvgl/src/widgets/chart/lv_chart.c:951:13:draw_div_lines	17
-../lvgl/src/widgets/chart/lv_chart.c:1019:13:draw_series_line	28
+../lvgl/src/widgets/chart/lv_chart.c:1019:13:draw_series_line	30
 ../lvgl/src/widgets/chart/lv_chart.c:1180:13:draw_series_curve	1
 ../lvgl/src/widgets/chart/lv_chart.c:1349:13:draw_series_scatter	19
 ../lvgl/src/widgets/chart/lv_chart.c:1463:13:draw_series_bar	11

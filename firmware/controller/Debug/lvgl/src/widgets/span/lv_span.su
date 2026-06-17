@@ -65,4 +65,4 @@
 ../lvgl/src/widgets/span/lv_span.c:1060:16:convert_indent_pct	24	static
 ../lvgl/src/widgets/span/lv_span.c:1083:13:lv_draw_span	416	static
 ../lvgl/src/widgets/span/lv_span.c:1446:25:make_span_coords	104	static
-../lvgl/src/widgets/span/lv_span.c:1496:13:span_text_observer_cb	24	static
+../lvgl/src/widgets/span/lv_span.c:1496:13:span_text_observer_cb	48	static

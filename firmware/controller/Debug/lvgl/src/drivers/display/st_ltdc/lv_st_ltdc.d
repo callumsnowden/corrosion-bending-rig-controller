@@ -109,6 +109,10 @@ lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.o: \
  ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../draw/lv_draw_blur.h \
  ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/lv_obj_class.h \
  ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/lv_obj_property.h \
+ ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/lv_obj_event.h \
  ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../misc/lv_event.h \
  ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../indev/lv_indev.h \
@@ -212,6 +216,8 @@ lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.o: \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sd.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_sdmmc.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spdifrx.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h \
@@ -328,6 +334,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../draw/lv_draw_blur.h:
 ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/lv_obj_class.h:
 ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/lv_obj_property.h:
+../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/lv_obj_event.h:
 ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../misc/lv_event.h:
 ../lvgl/src/drivers/display/st_ltdc/../../../display/../core/../indev/lv_indev.h:
@@ -432,6 +442,8 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sd.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_sdmmc.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spdifrx.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h:

@@ -32,9 +32,9 @@
 ../lvgl/src/widgets/arclabel/lv_arclabel.c:361:20:lv_arclabel_get_text_angle	16	static
 ../lvgl/src/widgets/arclabel/lv_arclabel.c:376:13:lv_arclabel_constructor	24	static
 ../lvgl/src/widgets/arclabel/lv_arclabel.c:397:13:lv_arclabel_event	24	static
-../lvgl/src/widgets/arclabel/lv_arclabel.c:412:13:arclabel_draw_main	280	static
+../lvgl/src/widgets/arclabel/lv_arclabel.c:412:13:arclabel_draw_main	288	static
 ../lvgl/src/widgets/arclabel/lv_arclabel.c:552:27:arclabel_calc_arc_text_total_angle	120	static
-../lvgl/src/widgets/arclabel/lv_arclabel.c:600:27:calc_arc_text_total_angle	112	static
+../lvgl/src/widgets/arclabel/lv_arclabel.c:600:27:calc_arc_text_total_angle	120	static
 ../lvgl/src/widgets/arclabel/lv_arclabel.c:673:21:recolor_cmd_get_next	56	static
 ../lvgl/src/widgets/arclabel/lv_arclabel.c:734:27:deg_to_rad	16	static
-../lvgl/src/widgets/arclabel/lv_arclabel.c:743:27:rad_to_deg	16	static
+../lvgl/src/widgets/arclabel/lv_arclabel.c:743:27:rad_to_deg	24	static

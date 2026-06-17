@@ -46,7 +46,7 @@
 ../lvgl/src/widgets/span/lv_span.c:695:18:lv_spangroup_get_span_coords	6
 ../lvgl/src/widgets/span/lv_span.c:727:13:lv_spangroup_get_span_by_point	8
 ../lvgl/src/widgets/span/lv_span.c:767:6:lv_spangroup_refresh	1
-../lvgl/src/widgets/span/lv_span.c:776:17:lv_spangroup_bind_span_text	14
+../lvgl/src/widgets/span/lv_span.c:776:17:lv_spangroup_bind_span_text	15
 ../lvgl/src/widgets/span/lv_span.c:827:13:lv_spangroup_constructor	1
 ../lvgl/src/widgets/span/lv_span.c:840:13:lv_spangroup_destructor	4
 ../lvgl/src/widgets/span/lv_span.c:857:13:lv_spangroup_event	15
@@ -65,4 +65,4 @@
 ../lvgl/src/widgets/span/lv_span.c:1060:16:convert_indent_pct	5
 ../lvgl/src/widgets/span/lv_span.c:1083:13:lv_draw_span	48
 ../lvgl/src/widgets/span/lv_span.c:1446:25:make_span_coords	4
-../lvgl/src/widgets/span/lv_span.c:1496:13:span_text_observer_cb	6
+../lvgl/src/widgets/span/lv_span.c:1496:13:span_text_observer_cb	5

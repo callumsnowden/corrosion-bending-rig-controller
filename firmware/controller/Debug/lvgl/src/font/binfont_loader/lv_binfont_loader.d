@@ -133,6 +133,10 @@ lvgl/src/font/binfont_loader/lv_binfont_loader.o: \
  ../lvgl/src/font/binfont_loader/../../../src/core/../draw/lv_draw_blur.h \
  ../lvgl/src/font/binfont_loader/../../../src/core/lv_obj_class.h \
  ../lvgl/src/font/binfont_loader/../../../src/core/lv_obj_property.h \
+ ../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/font/binfont_loader/../../../src/core/lv_obj_event.h \
  ../lvgl/src/font/binfont_loader/../../../src/core/../misc/lv_event.h \
  ../lvgl/src/font/binfont_loader/../../../src/core/../indev/lv_indev.h \
@@ -591,6 +595,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/font/binfont_loader/../../../src/core/../draw/lv_draw_blur.h:
 ../lvgl/src/font/binfont_loader/../../../src/core/lv_obj_class.h:
 ../lvgl/src/font/binfont_loader/../../../src/core/lv_obj_property.h:
+../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/lv_style_properties.h:
+../lvgl/src/font/binfont_loader/../../../src/core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/font/binfont_loader/../../../src/core/lv_obj_event.h:
 ../lvgl/src/font/binfont_loader/../../../src/core/../misc/lv_event.h:
 ../lvgl/src/font/binfont_loader/../../../src/core/../indev/lv_indev.h:

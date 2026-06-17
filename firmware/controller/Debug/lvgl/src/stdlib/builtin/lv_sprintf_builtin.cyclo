@@ -6,6 +6,8 @@
 ../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:194:15:_ntoa_format	31
 ../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:248:15:_ntoa_long	8
 ../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:273:15:_ntoa_long_long	8
-../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:547:12:lv_vsnprintf_inner	70
+../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:306:15:_ftoa	40
+../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:435:15:_etoa	25
+../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:547:12:lv_vsnprintf_inner	78
 ../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:864:5:lv_snprintf	1
 ../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c:873:5:lv_vsnprintf	1

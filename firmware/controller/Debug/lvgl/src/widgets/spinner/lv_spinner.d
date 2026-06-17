@@ -67,6 +67,10 @@ lvgl/src/widgets/spinner/lv_spinner.o: \
  ../lvgl/src/widgets/spinner/../../core/lv_obj_style_gen.h \
  ../lvgl/src/widgets/spinner/../../core/../misc/lv_area.h \
  ../lvgl/src/widgets/spinner/../../core/../core/lv_obj_style.h \
+ ../lvgl/src/widgets/spinner/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/widgets/spinner/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/widgets/spinner/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/widgets/spinner/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/widgets/spinner/../arc/lv_arc_private.h \
  ../lvgl/src/widgets/spinner/../arc/../../core/lv_obj_private.h \
  ../lvgl/src/widgets/spinner/../arc/../../core/../misc/lv_ext_data.h \
@@ -204,6 +208,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/widgets/spinner/../../core/lv_obj_style_gen.h:
 ../lvgl/src/widgets/spinner/../../core/../misc/lv_area.h:
 ../lvgl/src/widgets/spinner/../../core/../core/lv_obj_style.h:
+../lvgl/src/widgets/spinner/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/widgets/spinner/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/widgets/spinner/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/widgets/spinner/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/widgets/spinner/../arc/lv_arc_private.h:
 ../lvgl/src/widgets/spinner/../arc/../../core/lv_obj_private.h:
 ../lvgl/src/widgets/spinner/../arc/../../core/../misc/lv_ext_data.h:

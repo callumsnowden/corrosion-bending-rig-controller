@@ -63,6 +63,10 @@ lvgl/src/libs/qrcode/lv_qrcode.o: ../lvgl/src/libs/qrcode/lv_qrcode.c \
  ../lvgl/src/libs/qrcode/../../core/../misc/lv_bidi.h \
  ../lvgl/src/libs/qrcode/../../core/lv_obj_style_gen.h \
  ../lvgl/src/libs/qrcode/../../core/../core/lv_obj_style.h \
+ ../lvgl/src/libs/qrcode/../../core/../widgets/property/lv_obj_property_names.h \
+ ../lvgl/src/libs/qrcode/../../core/../widgets/property/../../misc/lv_types.h \
+ ../lvgl/src/libs/qrcode/../../core/../widgets/property/lv_style_properties.h \
+ ../lvgl/src/libs/qrcode/../../core/../widgets/property/../../core/lv_obj_property.h \
  ../lvgl/src/libs/qrcode/lv_qrcode_private.h \
  ../lvgl/src/libs/qrcode/../../widgets/canvas/lv_canvas_private.h \
  ../lvgl/src/libs/qrcode/../../widgets/canvas/../image/lv_image_private.h \
@@ -206,6 +210,10 @@ C:/Users/q42536cs/OneDrive\ -\ The\ University\ of\ Manchester/Documents/GitHub/
 ../lvgl/src/libs/qrcode/../../core/../misc/lv_bidi.h:
 ../lvgl/src/libs/qrcode/../../core/lv_obj_style_gen.h:
 ../lvgl/src/libs/qrcode/../../core/../core/lv_obj_style.h:
+../lvgl/src/libs/qrcode/../../core/../widgets/property/lv_obj_property_names.h:
+../lvgl/src/libs/qrcode/../../core/../widgets/property/../../misc/lv_types.h:
+../lvgl/src/libs/qrcode/../../core/../widgets/property/lv_style_properties.h:
+../lvgl/src/libs/qrcode/../../core/../widgets/property/../../core/lv_obj_property.h:
 ../lvgl/src/libs/qrcode/lv_qrcode_private.h:
 ../lvgl/src/libs/qrcode/../../widgets/canvas/lv_canvas_private.h:
 ../lvgl/src/libs/qrcode/../../widgets/canvas/../image/lv_image_private.h:

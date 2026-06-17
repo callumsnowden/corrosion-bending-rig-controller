@@ -71,3 +71,6 @@
 ../lvgl/src/core/lv_obj.c:1218:13:screen_create_on_trigger_event_cb	32	static
 ../lvgl/src/core/lv_obj.c:1228:13:play_timeline_on_trigger_event_cb	24	static
 ../lvgl/src/core/lv_obj.c:1261:13:delete_on_screen_unloaded_event_cb	16	static
+../lvgl/src/core/lv_obj.c:1267:19:lv_obj_get_scroll_end_helper	24	static
+../lvgl/src/core/lv_obj.c:1274:20:lv_obj_set_any	32	static
+../lvgl/src/core/lv_obj.c:1299:20:lv_obj_get_any	32	static

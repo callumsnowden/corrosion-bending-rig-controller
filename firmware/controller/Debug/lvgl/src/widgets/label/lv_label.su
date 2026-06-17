@@ -52,4 +52,4 @@
 ../lvgl/src/widgets/label/lv_label.c:1418:13:copy_text_to_label	16	static
 ../lvgl/src/widgets/label/lv_label.c:1427:23:get_label_flags	24	static
 ../lvgl/src/widgets/label/lv_label.c:1445:13:calculate_x_coordinate	32	static
-../lvgl/src/widgets/label/lv_label.c:1463:13:label_text_observer_cb	24	static
+../lvgl/src/widgets/label/lv_label.c:1463:13:label_text_observer_cb	32	static

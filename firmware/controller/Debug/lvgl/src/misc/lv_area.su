@@ -19,7 +19,7 @@
 ../lvgl/src/misc/lv_area.c:512:9:lv_area_get_width	16	static
 ../lvgl/src/misc/lv_area.c:517:9:lv_area_get_height	16	static
 ../lvgl/src/misc/lv_area.c:522:12:lv_point_from_precise	24	static
-../lvgl/src/misc/lv_area.c:531:20:lv_point_to_precise	24	static
+../lvgl/src/misc/lv_area.c:531:20:lv_point_to_precise	40	static
 ../lvgl/src/misc/lv_area.c:540:6:lv_point_set	24	static
 ../lvgl/src/misc/lv_area.c:546:6:lv_point_precise_set	24	static
 ../lvgl/src/misc/lv_area.c:552:6:lv_point_swap	24	static

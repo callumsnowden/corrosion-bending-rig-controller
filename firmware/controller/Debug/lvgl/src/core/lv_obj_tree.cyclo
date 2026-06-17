@@ -15,6 +15,12 @@
 ../lvgl/src/core/lv_obj_tree.c:392:12:lv_obj_get_sibling_by_type	3
 ../lvgl/src/core/lv_obj_tree.c:403:10:lv_obj_get_child_count	3
 ../lvgl/src/core/lv_obj_tree.c:410:10:lv_obj_get_child_count_by_type	5
+../lvgl/src/core/lv_obj_tree.c:425:6:lv_obj_set_name	5
+../lvgl/src/core/lv_obj_tree.c:443:6:lv_obj_set_name_static	4
+../lvgl/src/core/lv_obj_tree.c:455:14:lv_obj_get_name	3
+../lvgl/src/core/lv_obj_tree.c:463:6:lv_obj_get_name_resolved	14
+../lvgl/src/core/lv_obj_tree.c:529:12:lv_obj_get_child_by_name	11
+../lvgl/src/core/lv_obj_tree.c:561:12:lv_obj_find_by_name	6
 ../lvgl/src/core/lv_obj_tree.c:583:9:lv_obj_get_index	5
 ../lvgl/src/core/lv_obj_tree.c:600:9:lv_obj_get_index_by_type	6
 ../lvgl/src/core/lv_obj_tree.c:621:6:lv_obj_tree_walk	1
@@ -25,3 +31,4 @@
 ../lvgl/src/core/lv_obj_tree.c:757:31:walk_core	8
 ../lvgl/src/core/lv_obj_tree.c:787:13:dump_tree_core	5
 ../lvgl/src/core/lv_obj_tree.c:811:19:lv_obj_get_first_not_deleting_child	5
+../lvgl/src/core/lv_obj_tree.c:830:19:find_by_name_direct	6
