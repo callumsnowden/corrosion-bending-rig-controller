@@ -239,7 +239,7 @@ main-build: controller.elf secondary-outputs
 
 # Tool invocations
 controller.elf controller.map: $(OBJS) $(USER_OBJS) C:\Users\q42536cs\OneDrive\ -\ The\ University\ of\ Manchester\Documents\GitHub\corrosion-bending-rig-controller\firmware\controller\STM32F746NGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "controller.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\q42536cs\OneDrive - The University of Manchester\Documents\GitHub\corrosion-bending-rig-controller\firmware\controller\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="controller.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "controller.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\q42536cs\OneDrive - The University of Manchester\Documents\GitHub\corrosion-bending-rig-controller\firmware\controller\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="controller.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

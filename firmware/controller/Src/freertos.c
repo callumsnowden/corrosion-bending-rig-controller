@@ -790,12 +790,14 @@ void vTaskProcessControl(void * pvParameters)
 	MachineState_t operationalState = MACHINE_DISABLED;
 	uint32_t homeStepCount = 0;  // how many steps it takes to reach home position
 	uint16_t stepsPerRevolution = 400; // how many pulses it takes to get a complete revolution on the stepper motor
-	uint8_t ballscrewPitch = 5; // distance travelled per revolution of the input (i.e. per stepper motor revolution)
+	float ballscrewPitch = 5; // distance travelled per revolution of the input (i.e. per stepper motor revolution)
 	uint32_t totalRunTime = 0; // test run time in milliseconds (uint32_t gives a maximum value of approximately 49 days of runtime)
+	float distanceToMove = 0;
 	uint32_t totalStepsToMove = 0; // how many steps need to be moved total
 	uint64_t stepInterval = 0; // time in milliseconds between steps
 	uint64_t lastStepTime = 0; // time in milliseconds since the last step was taken
 	uint32_t currentStepCount = 0; // current step count in move
+	float distancePerStep = (float)ballscrewPitch / (float)stepsPerRevolution;
 	float progressPercentage = 0; // test cycle percentage
 	float currentPosition = 0.0; // current motor position from home in mm
 	uint32_t uiButtonsCallbackValue = 0; // return value from UI buttons callback
@@ -817,7 +819,7 @@ void vTaskProcessControl(void * pvParameters)
 		loopCounter++;
 		if(loopCounter % 25 == 0)
 		{
-			currentPosition = (float)currentStepCount * ((float)(ballscrewPitch) / (float)(stepsPerRevolution));
+			currentPosition = ((float)(ballscrewPitch) / (float)(stepsPerRevolution)) * (float)currentStepCount;
 			lv_lock();
 			lv_label_set_text_fmt(lv_obj_find_by_name(lv_screen_active(), "distanceLabel"), "D: %.2fmm", currentPosition);
 			lv_unlock();
@@ -926,18 +928,18 @@ void vTaskProcessControl(void * pvParameters)
 					lv_lock();
 					const char* distanceString = lv_textarea_get_text(lv_obj_find_by_name(lv_screen_active(), "distanceTextArea"));
 					const char* timeString = lv_textarea_get_text(lv_obj_find_by_name(lv_screen_active(), "timeTextArea"));
-					sscanf(distanceString, "%lu", &totalStepsToMove);
+					sscanf(distanceString, "%f", &distanceToMove);
 					sscanf(timeString, "%lu", &totalRunTime);
 
 					/*
 					 * Sanity check values
 					 */
-					if(totalStepsToMove != 0 && totalRunTime != 0)
+					if(distanceToMove != 0 && totalRunTime != 0)
 					{
-						if(totalStepsToMove >  MAX_MOVE_DISTANCE)
+						if(distanceToMove >  MAX_MOVE_DISTANCE)
 						{
 							lv_textarea_set_text(lv_obj_find_by_name(lv_screen_active(), "distanceTextArea"), (const char *)MAX_MOVE_DISTANCE);
-							totalStepsToMove = MAX_MOVE_DISTANCE;
+							distanceToMove = MAX_MOVE_DISTANCE;
 						}
 
 						if(totalRunTime > MAX_RUN_TIME)
@@ -951,7 +953,8 @@ void vTaskProcessControl(void * pvParameters)
 						 */
 						currentStepCount = 0;
 						totalRunTime = (totalRunTime * 60) * 1000; // Currently, runtime is entered as minutes so needs converting to ms
-						totalStepsToMove = ((float)((totalStepsToMove) / ballscrewPitch)) * stepsPerRevolution;
+						//totalStepsToMove = (float)((float)totalStepsToMove / (float)ballscrewPitch) * stepsPerRevolution;
+						totalStepsToMove = (uint32_t)((distanceToMove / ballscrewPitch) * stepsPerRevolution);
 						stepInterval = floor((float)(totalRunTime / totalStepsToMove));
 
 						/*
@@ -1036,7 +1039,7 @@ void vTaskProcessControl(void * pvParameters)
 						 */
 						retractMessage.starttime = retractStartTime;
 						retractMessage.runtime = (lastStepTime - retractStartTime);
-						retractMessage.distance = (float)(currentStepCount * ((float)(ballscrewPitch) / (float)(stepsPerRevolution)));
+						retractMessage.distance = (float)((ballscrewPitch / stepsPerRevolution) * currentStepCount);
 						xQueueSendToBack(xRetractionDistanceQueue, &retractMessage, 0);
 
 						/*
